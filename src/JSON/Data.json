@@ -1,0 +1,21 @@
+{
+    "posts":[
+        {
+        "id":1,
+        "Name":"deep",
+        "city":"Kolkata",
+        "salary":10000,
+        "Mobile":8343039474,
+        "ProfilePicture":{}
+    },
+    {
+        "id":2,
+        "Name":"deep1",
+        "city":"Bangalor",
+        "salary":50000,
+        "Mobile":8348039474,
+        "ProfilePicture":{}
+    }
+
+]
+}

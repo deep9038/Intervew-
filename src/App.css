@@ -1,38 +1,136 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Unbounded:wght@200&display=swap');
+.city{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+height: 60px;
+}
+.city input{
+  margin-left: 10px;
+  height: 30px;
+}
+.city-input-container{
+ display: flex;
+ flex-direction: row;
+ align-items: center;
+ justify-content: space-around;
+ margin-bottom: 2rem;
+ width: 100%;
+ border-bottom: 1px solid black;
+}
+.button{
+  border: none;
+  background-color: #6c501c;
+  color: white;
+  font-size: 15px;
+
+  padding: 10px;
+  border-radius: 4px;
+}
+.App{
+  display: flex;
+ flex-direction: column;
+ align-items: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.details h2{
+  font-size: 17px;
+  margin-right: 10px;
+  text-transform: uppercase;
+  
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.details input{
+  height: 30px;
+  width: 100%;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.details-contaner{
+  height: 60%;
+  width: 80%;
+}
+.details{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+  align-items: center;
+  height: 40px;
+}
+.details select{
+  height: 30px;
+  width: 100%;
+}
+.profile-picure-uplod-container{
+  position: relative;
+  width: 100%;
+}
+.profile-picure-uplod-container div{
+  height: 30px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgba(14, 14, 14, 0.57);
+  border-radius: 3px;
+}
+.ProfilePic{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  width: 100%;
+  opacity: 0;
+}
+.looklikeInputfild{
+  width: 100%;
+}
+.display-container p{
+  font-size: 20px;
+  font-family: 'Unbounded', cursive;
+  margin-bottom: 10px;
+}
+.display-container{
+  width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  align-items: center;
+  margin: 2rem 0;
+}
+.tableFordetails{
+  width: 100%;
+}
+.tableFordetails table tr th,.tableFordetails table tr td{
+  border: 1px solid black;
+  height: 40px;
+  width: 60px;
+  text-align: center;
+  font-family:'Unbounded', cursive;
+}
+.tableFordetails table{
+  width: 100%;
+  border: 1px solid black;
+}
+.crud-op div{
+  height: 90%;
+  width: 80%;
+  
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.edit{
+    background-color: green;
+    border-radius: 4px;
+}
+.delete{
+  background-color: rgb(138, 13, 13);
+  border-radius: 4px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
